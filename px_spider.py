@@ -21,9 +21,7 @@ class PropertyFinder(scrapy.Spider):
     name = 'property'
     # custom settings
     custom_settings = {'FEED_FORMAT':'csv', 'FEED_URI':'propertyfound.csv'}
-    
-    #base_url = 'https://www.propertyfinder.bh/en/search?'
-    
+        
     headers = {
         'user-agent' : 
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36'
@@ -54,7 +52,7 @@ class PropertyFinder(scrapy.Spider):
                     if url == card['url']:
                         # "Add longitude and latitude 
                         l.add_value('longitude',card['mainEntity']['geo']['longitude'])
-                        l.add_value('latitude',card['mainEntity']['geo']['latitude']))
+                        l.add_value('latitude',card['mainEntity']['geo']['latitude'])
             except Exception as e:
                 print(e)
             
