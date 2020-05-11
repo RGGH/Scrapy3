@@ -6,8 +6,6 @@ Credit : Ahmed Rafik Djerah for the following code ideas:
 -- ItemLoader
 -- new "next_page" 
 
-https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png
-
 <p>Propertyfinder.bh Scrapy Tutorial</p>
 
 <a href="https://github.com/RGGH/Scrapy3">
