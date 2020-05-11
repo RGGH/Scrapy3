@@ -9,7 +9,7 @@ Credit : Ahmed Rafik Djerah for the following code ideas:
 <p>Propertyfinder.bh Scrapy Tutorial</p>
 
 <a href="https://github.com/RGGH/Scrapy3">
-  <img src="https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" alt="Using Scrapy with items.py and ItemLoader to scrape property information" class="center" style="">
+  <img src="https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" alt="Using Scrapy with items.py and ItemLoader to scrape property information" class="center">
 </a> 
 
 
