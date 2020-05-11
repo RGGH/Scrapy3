@@ -8,8 +8,5 @@ Credit : Ahmed Rafik Djerah for the following code ideas:
 
 <p>Propertyfinder.bh Scrapy Tutorial</p>
 
-<div>
-    <img class="marginauto" src="https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" alt="Using Scrapy with items.py and ItemLoader to scrape property information" />
-</div>
 
-＜img src = "https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" style = "display: block; margin: 0 auto;"＞
+＜img src = "https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" style = "display:block; margin-left: auto; margin-right: auto;"＞
