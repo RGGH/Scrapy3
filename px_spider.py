@@ -1,3 +1,12 @@
+'''
+# Property Finder 
+# Credit : Thanks to Maskim Korzh for original code 
+# Credit : Ahmed Rafik Djerah for the following code ideas:  
+-- use xpaths instead of css,
+-- ItemLoader
+-- new "next_page" 
+'''
+# packages
 import scrapy
 from scrapy.loader import ItemLoader
 from items import PxItem
@@ -17,7 +26,7 @@ class PropertyFinder(scrapy.Spider):
     
     headers = {
         'user-agent' : 
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 '
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36'
     }
 
     def start_requests(self):
@@ -59,9 +68,8 @@ class PropertyFinder(scrapy.Spider):
             l.add_xpath('floor_area',".//p[@class='card__property-amenity card__property-amenity--area']/text()")
             l.add_value('listing_url',url)
             yield l.load_item()
-                            
+                  
         next_page = response.xpath("//a[@class='pagination__link pagination__link--next']/@href").get()
-
         if next_page is not None:
             yield response.follow(url=next_page, callback=self.parse)
                 
