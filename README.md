@@ -8,5 +8,4 @@ Credit : Ahmed Rafik Djerah for the following code ideas:
 
 <p>Propertyfinder.bh Scrapy Tutorial</p>
 
-
-＜img src = "https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" style = "display:block; margin-left: auto; margin-right: auto;"＞
+<img src="https://github.com/RGGH/Misc/blob/master/Propertyfinder_banner.png" style="margin: 0 auto;">
